@@ -38,14 +38,22 @@ main{
     
 }
 
-.menu{
+.bloco{
     
     background-color: blue;
-    flex-wrap: wrap;
-    width: 70px;
-    height: 70px;
-    margin: 20px;
+    border: 2px solid;
+    height: 115px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     
+}
+
+.interna{
+    width: 40px;
+    height: 40px;
+    background-color: brown;
 }
 
 
