@@ -1,61 +1,56 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
+.container{
+    border: 2px solid;
+    width: 99%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    background-color: aquamarine;
+    height: 20%;
+}
 
-.Header{
-   border: 2px solid;
-   align-items: start;
-   ;
+.principal{
+    display: flex;
+    height: 70%;
 }
-.Main{
-    border: 2px solid;
-    justify-content: end;
+
+
+aside{
+    background-color: rgb(163, 127, 255);
+    width: 20%;
+    order: -1;
 }
-.Aside{
-    border: 2px solid;
-    justify-content: start;
+main{
+    background-color: rgb(255, 127, 189);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
-.Footer{
-    border: 2px solid;
-    align-items: end;
+
+.menu{
+    
+    background-color: blue;
+    flex-wrap: wrap;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
     
 }
 
 
 
-.pai{
-    border: 2px solid;
-    width: 98%;
-    height: 350px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-
+footer{
+    background-color: rgb(92, 7, 7);
+    height: 10%;
 }
-.filho{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
-    width: 50px;
-    height: 50px;
-    color: white;
-    display: flex;
-
-}
-.amarela{
-    background-color: yellow;
-    color: black;    
-}
-.laranja{
-    background-color: orange;
-
-}
-.violeta{
-    background-color: blueviolet;
-}
-
